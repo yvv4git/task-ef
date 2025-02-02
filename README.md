@@ -25,3 +25,10 @@ make up
 Информация о запросах к API доступна в документации:
 ![doc](public/doc.png)
 
+Так выглядит работа cron-job:
+![cron-job](public/docker_logs_cron_job.png)
+
+
+Так выглядит запрос к API:
+curl --location --request GET 'http://localhost:8000/address-eth-diff'
+![api](public/api_request.png)
